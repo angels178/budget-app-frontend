@@ -1,0 +1,29 @@
+.budget-container-show {
+    text-align: left;
+}
+
+.budget-container-info {
+    max-width: 260px;
+    margin: 0 auto;
+    background-color: #68B984;
+    padding: 35px 35px;
+}
+
+.budget-container-info p {
+    margin: 30px;
+    font-size: large;
+}
+
+
+.budget-navigation {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.budget-navigation ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+

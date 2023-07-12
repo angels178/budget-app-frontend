@@ -1,0 +1,60 @@
+.budget-container-index {
+    text-align: left;
+}
+
+.budget-container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+
+.budget-container-table {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budget-container-amount {
+    text-align: center;
+}
+
+.color-green {
+    color: green !important;
+}
+  
+.color-red {
+    color: red !important;
+}
+
+#budget {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    justify-self: center;
+}
+
+#budget td,
+#budget th {
+  padding: 10px;
+  font-size: 20px;
+  max-width: max-content;
+  border-bottom: 1px solid #14C38E;
+}
+
+#budget th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #14C38E;
+    color: white;
+}
+
+.budget-link {
+    color: #98EECC;
+}
+
+#item-name a {
+    text-decoration: none;
+}
+

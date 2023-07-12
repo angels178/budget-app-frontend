@@ -1,0 +1,34 @@
+header {
+    background-color: green;
+}
+
+header nav ul {
+    display: -webkit-flex;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.index {
+    text-decoration: none;
+    padding: 25px 25px;
+    font-size: larger;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 25px 25px;
+}
+
+.new-form {
+    padding: 25px 25px;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: transparent;
+    color: aquamarine;
+    box-sizing: content-box;
+}
+
