@@ -54,9 +54,12 @@ function Transactions() {
               </tr>
 
               {transactions.map((transaction) => {
+                const transactionDate = new Date(transaction.date);
+
+                const formattedDate = transactionDate.toLocaleDateString();
                 return (
                   <tr key={transaction.id}>
-                    <td>{transaction.date}</td>
+                    <td>{formattedDate}</td>
                     <td id="item-name">
                       <Link to={`/transactions/${transaction.id}`}>
                         {transaction.item_name}
